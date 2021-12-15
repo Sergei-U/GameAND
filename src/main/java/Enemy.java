@@ -1,4 +1,4 @@
-package Homework.RPG.MyGame;
+package Homework.RPG.MyGame.src.main.java;
 
 public class Enemy extends Characters{
     public static String[] enemies = {"Goblin", "Skeleton"};

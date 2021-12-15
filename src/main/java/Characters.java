@@ -1,8 +1,14 @@
-package Homework.RPG.MyGame;
+package Homework.RPG.MyGame.src.main.java;
 
 public class Characters implements Assaulter {
-    private int maxHp, hp, attack, defense, level;
-    private int place, xp, gold;
+    private int maxHp;
+    private int hp;
+    private int attack;
+    private int defense;
+    private int level;
+    private int place;
+    private int xp;
+    private int gold;
     private int strength;
     private int agility;
     private int damage;
@@ -117,16 +123,16 @@ public class Characters implements Assaulter {
         else return damage;
     }
 
-        private int getRandomValue() {
-            return (int) (Math.random() * 100);
-        }
+    private int getRandomValue() {
+        return (int) (Math.random() * 100);
+    }
 
     /*private String crash (Characters target) {
         target.hp -= this.damage;
         return String.format("%s attacks %s for %d damage!", this.name, target.name, this.damage);
     }*/
 
-    public void info () {
+    public void info() {
         System.out.println("\tYour HP: " + name + hp);
     }
 

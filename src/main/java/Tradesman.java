@@ -1,4 +1,4 @@
-package Homework.RPG.MyGame;
+package Homework.RPG.MyGame.src.main.java;
 
 public class Tradesman implements Seller {
 
@@ -11,7 +11,7 @@ public class Tradesman implements Seller {
         return result;
     }
 
-    public class Goods {
+    public static class Goods {
         public static Goods POTION;
     }
 }

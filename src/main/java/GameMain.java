@@ -1,9 +1,9 @@
-package Homework.RPG.MyGame;
+package Homework.RPG.MyGame.src.main.java;
 
 import java.util.Random;
 import java.util.Scanner;
 
-import static Homework.RPG.MyGame.Enemy.enemies;
+import static Homework.RPG.MyGame.src.main.java.Enemy.enemies;
 
 public class GameMain {
     static Scanner in = new Scanner(System.in);
